@@ -1,0 +1,6 @@
+#!/bin/bash
+host=ubuntu1404-010.student.cs.uwaterloo.ca 
+p1=8991 
+p2=8992 
+file=input
+java sender $host $p1 $p2 $file

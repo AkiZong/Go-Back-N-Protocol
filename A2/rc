@@ -1,0 +1,6 @@
+#!/bin/bash
+host=ubuntu1404-010.student.cs.uwaterloo.ca 
+p1=8993
+p2=8994
+file=output
+java receiver $host $p1 $p2 $file

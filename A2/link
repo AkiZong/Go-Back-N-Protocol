@@ -1,0 +1,11 @@
+#!/bin/bash
+port1=8991
+port2=8992
+port3=8993
+port4=8994
+rc=ubuntu1404-006.student.cs.uwaterloo.ca
+sd=ubuntu1404-012.student.cs.uwaterloo.ca
+delay=1
+discard=0.8
+verbo=0
+./nEmulator $port1 $rc $port4 $port3 $sd $port2 $delay $discard $verbo
